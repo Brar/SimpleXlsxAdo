@@ -1,9 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <Authors>Brar Piening</Authors>
+    <Description>SimpleXlsxAdo is a simple open source .NET data provider to read XLSX (Open XML; Excel) files.</Description>
+    <PackageTags>simplexlsxado;open xml;xlsx;excel;ado;ado.net;database</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <LangVersion>preview</LangVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" />
+    <PackageReference Include="System.Data.Common" />
+    <PackageReference Include="Microsoft.CodeAnalysis.PublicApiAnalyzers" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>

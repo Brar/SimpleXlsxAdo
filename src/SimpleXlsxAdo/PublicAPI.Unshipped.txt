@@ -1,0 +1,87 @@
+override SimpleXlsxAdo.XlsxCommand.Cancel() -> void
+override SimpleXlsxAdo.XlsxCommand.CommandText.get -> string!
+override SimpleXlsxAdo.XlsxCommand.CommandText.set -> void
+override SimpleXlsxAdo.XlsxCommand.CommandTimeout.get -> int
+override SimpleXlsxAdo.XlsxCommand.CommandTimeout.set -> void
+override SimpleXlsxAdo.XlsxCommand.CommandType.get -> System.Data.CommandType
+override SimpleXlsxAdo.XlsxCommand.CommandType.set -> void
+override SimpleXlsxAdo.XlsxCommand.DesignTimeVisible.get -> bool
+override SimpleXlsxAdo.XlsxCommand.DesignTimeVisible.set -> void
+override SimpleXlsxAdo.XlsxCommand.ExecuteNonQuery() -> int
+override SimpleXlsxAdo.XlsxCommand.ExecuteScalar() -> object?
+override SimpleXlsxAdo.XlsxCommand.Prepare() -> void
+override SimpleXlsxAdo.XlsxCommand.UpdatedRowSource.get -> System.Data.UpdateRowSource
+override SimpleXlsxAdo.XlsxCommand.UpdatedRowSource.set -> void
+override SimpleXlsxAdo.XlsxConnection.ChangeDatabase(string! databaseName) -> void
+override SimpleXlsxAdo.XlsxConnection.Close() -> void
+override SimpleXlsxAdo.XlsxConnection.ConnectionString.get -> string!
+override SimpleXlsxAdo.XlsxConnection.ConnectionString.set -> void
+override SimpleXlsxAdo.XlsxConnection.Database.get -> string!
+override SimpleXlsxAdo.XlsxConnection.DataSource.get -> string!
+override SimpleXlsxAdo.XlsxConnection.Open() -> void
+override SimpleXlsxAdo.XlsxConnection.ServerVersion.get -> string!
+override SimpleXlsxAdo.XlsxConnection.State.get -> System.Data.ConnectionState
+override SimpleXlsxAdo.XlsxProviderFactory.CreateCommand() -> System.Data.Common.DbCommand!
+override SimpleXlsxAdo.XlsxProviderFactory.CreateConnection() -> System.Data.Common.DbConnection!
+override SimpleXlsxAdo.XlsxProviderFactory.CreateConnectionStringBuilder() -> System.Data.Common.DbConnectionStringBuilder!
+override SimpleXlsxAdo.XlsxReader.Depth.get -> int
+override SimpleXlsxAdo.XlsxReader.Dispose(bool disposing) -> void
+override SimpleXlsxAdo.XlsxReader.FieldCount.get -> int
+override SimpleXlsxAdo.XlsxReader.GetBoolean(int ordinal) -> bool
+override SimpleXlsxAdo.XlsxReader.GetByte(int ordinal) -> byte
+override SimpleXlsxAdo.XlsxReader.GetBytes(int ordinal, long dataOffset, byte[]? buffer, int bufferOffset, int length) -> long
+override SimpleXlsxAdo.XlsxReader.GetChar(int ordinal) -> char
+override SimpleXlsxAdo.XlsxReader.GetChars(int ordinal, long dataOffset, char[]? buffer, int bufferOffset, int length) -> long
+override SimpleXlsxAdo.XlsxReader.GetDataTypeName(int ordinal) -> string!
+override SimpleXlsxAdo.XlsxReader.GetDateTime(int ordinal) -> System.DateTime
+override SimpleXlsxAdo.XlsxReader.GetDecimal(int ordinal) -> decimal
+override SimpleXlsxAdo.XlsxReader.GetDouble(int ordinal) -> double
+override SimpleXlsxAdo.XlsxReader.GetEnumerator() -> System.Collections.IEnumerator!
+override SimpleXlsxAdo.XlsxReader.GetFieldType(int ordinal) -> System.Type!
+override SimpleXlsxAdo.XlsxReader.GetFloat(int ordinal) -> float
+override SimpleXlsxAdo.XlsxReader.GetGuid(int ordinal) -> System.Guid
+override SimpleXlsxAdo.XlsxReader.GetInt16(int ordinal) -> short
+override SimpleXlsxAdo.XlsxReader.GetInt32(int ordinal) -> int
+override SimpleXlsxAdo.XlsxReader.GetInt64(int ordinal) -> long
+override SimpleXlsxAdo.XlsxReader.GetName(int ordinal) -> string!
+override SimpleXlsxAdo.XlsxReader.GetOrdinal(string! name) -> int
+override SimpleXlsxAdo.XlsxReader.GetString(int ordinal) -> string!
+override SimpleXlsxAdo.XlsxReader.GetValue(int ordinal) -> object!
+override SimpleXlsxAdo.XlsxReader.GetValues(object![]! values) -> int
+override SimpleXlsxAdo.XlsxReader.HasRows.get -> bool
+override SimpleXlsxAdo.XlsxReader.IsClosed.get -> bool
+override SimpleXlsxAdo.XlsxReader.IsDBNull(int ordinal) -> bool
+override SimpleXlsxAdo.XlsxReader.NextResult() -> bool
+override SimpleXlsxAdo.XlsxReader.Read() -> bool
+override SimpleXlsxAdo.XlsxReader.RecordsAffected.get -> int
+override SimpleXlsxAdo.XlsxReader.this[int ordinal].get -> object!
+override SimpleXlsxAdo.XlsxReader.this[string! name].get -> object!
+SimpleXlsxAdo.XlsxCommand
+SimpleXlsxAdo.XlsxCommand.ExecuteReader(System.Data.CommandBehavior behavior = System.Data.CommandBehavior.Default) -> SimpleXlsxAdo.XlsxReader!
+SimpleXlsxAdo.XlsxConnection
+SimpleXlsxAdo.XlsxConnection.CreateCommand(string? commandText = null) -> SimpleXlsxAdo.XlsxCommand!
+SimpleXlsxAdo.XlsxConnection.XlsxConnection(string? connectionString = null) -> void
+SimpleXlsxAdo.XlsxConnectionStringBuilder
+SimpleXlsxAdo.XlsxConnectionStringBuilder.Header.get -> bool
+SimpleXlsxAdo.XlsxConnectionStringBuilder.Header.set -> void
+SimpleXlsxAdo.XlsxConnectionStringBuilder.NullString.get -> string?
+SimpleXlsxAdo.XlsxConnectionStringBuilder.NullString.set -> void
+SimpleXlsxAdo.XlsxConnectionStringBuilder.Path.get -> string!
+SimpleXlsxAdo.XlsxConnectionStringBuilder.Path.set -> void
+SimpleXlsxAdo.XlsxConnectionStringBuilder.XlsxConnectionStringBuilder(string? connectionString = null) -> void
+SimpleXlsxAdo.XlsxException
+SimpleXlsxAdo.XlsxProviderFactory
+SimpleXlsxAdo.XlsxReader
+SimpleXlsxAdo.XlsxReader.GetIParsable<T>(int ordinal, System.IFormatProvider? provider) -> T?
+SimpleXlsxAdo.XlsxReader.WorkSheetName.get -> string?
+SimpleXlsxAdo.XlsxReader.XlsxReader(System.IO.Stream! documentStream, SimpleXlsxAdo.XlsxReaderOptions! options) -> void
+SimpleXlsxAdo.XlsxReaderOptions
+SimpleXlsxAdo.XlsxReaderOptions.CommandBehavior.get -> System.Data.CommandBehavior
+SimpleXlsxAdo.XlsxReaderOptions.CommandBehavior.init -> void
+SimpleXlsxAdo.XlsxReaderOptions.Header.get -> bool
+SimpleXlsxAdo.XlsxReaderOptions.Header.init -> void
+SimpleXlsxAdo.XlsxReaderOptions.NullString.get -> string?
+SimpleXlsxAdo.XlsxReaderOptions.NullString.init -> void
+SimpleXlsxAdo.XlsxReaderOptions.WorksheetName.get -> string?
+SimpleXlsxAdo.XlsxReaderOptions.WorksheetName.init -> void
+static readonly SimpleXlsxAdo.XlsxProviderFactory.Instance -> SimpleXlsxAdo.XlsxProviderFactory!

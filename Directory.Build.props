@@ -1,0 +1,21 @@
+﻿<Project>
+  <PropertyGroup>
+    <VersionPrefix>0.1.0-alpha.1</VersionPrefix>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Nullable>enable</Nullable>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <SuppressNETCoreSdkPreviewMessage>true</SuppressNETCoreSdkPreviewMessage>
+
+    <Copyright>Copyright 2022 ©  Brar Piening</Copyright>
+    <Company>Brar Piening</Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Brar/SimpleXlsxAdo</PackageProjectUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <NoWarn>$(NoWarn)</NoWarn>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+</Project>
